@@ -1,0 +1,68 @@
+.addressSearch {
+    margin: 0 auto;
+    z-index: 1;
+    background-image: url('https://yastatic.net/s3/eda-front/www/assets/default-d3a889e26c9ac9089ce5b007da1ac51b.png');
+    padding:20px;
+    width: 1370px;
+}
+.addressSearch__link > ul {
+    display: flex;
+    color:#fff;
+    padding:20px;
+    font-size: 18px;
+}
+.addressSearch__link > ul > li {
+    margin:0 20px;
+    
+}
+.addressSearch__link_yandex {
+    margin:0 20px;
+    list-style: none;
+}
+.addressSearch__offer {
+    margin-left:35px;
+    font-size: 50px;
+    max-width: 1000px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding-right: 10%;
+}
+.addressSearch__offer > span {
+    color:#fff;
+}
+.addressSearch__input {
+    margin-left: 12px;
+    margin-top:40px;
+    padding:20px;
+}
+.addressSearch__input > input {
+    width: 400px;
+    height: 34px;
+    border: 1px solid #cccccc;
+    font-size: 15px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    appearance: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+    text-overflow: ellipsis;
+    font-size:18px;
+    box-shadow: none;
+}
+.addressSearch__input > input:hover {
+    outline:none;
+}
+.addressSearch__button {
+    width:250px;
+    height: 40px;
+    border:none;
+    border-radius: 4px;
+    color: #000000;
+    background: rgb(252, 224, 0);
+    font-weight: bold;
+    padding:12px;
+    font-size:15px;
+    padding-right: 30px;
+    padding-left:30px;
+    outline:none;
+}

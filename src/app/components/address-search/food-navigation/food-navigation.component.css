@@ -1,0 +1,15 @@
+.foodNavigation {
+    display:flex;
+    justify-content:space-around;
+}
+.foodNavigation > ul {
+    display: flex;
+    list-style: none;
+}
+.foodNavigation > ul > li {
+    padding:0 20px;
+}
+.navigation__hover{
+    padding: 20px;
+    background: rgb(252, 224, 0);
+}
